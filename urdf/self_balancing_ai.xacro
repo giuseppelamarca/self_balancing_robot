@@ -11,13 +11,11 @@
 </xacro:property>
 
 <xacro:property name="inertia_motor">
-	<!--<inertia ixx="0.0000315494444" ixy="0.0" ixz="0.0" iyy="0.0000315494444" iyz="0.0" izz="0.00000842933333"/>-->
-	<inertia ixx="0" ixy="0.0" ixz="0.0" iyy="0" iyz="0.0" izz="0.00000000000000000000001"/>
+	<inertia ixx="0.0000315494444" ixy="0.0" ixz="0.0" iyy="0.0000315494444" iyz="0.0" izz="0.00000842933333"/>
 </xacro:property>
 
 <xacro:property name="inertia_wheel">
-	<inertia ixx="0" ixy="0.0" ixz="0.0" iyy="0" iyz="0.0" izz="0.00000000000000000000001"/>
-	<!--<inertia ixx="0.0000" ixy="0.0" ixz="0.0" iyy="0.0000" iyz="0.0" izz="0.00002734375"/>-->
+	<inertia ixx="0.0000" ixy="0.0" ixz="0.0" iyy="0.0000" iyz="0.0" izz="0.00002734375"/>
 </xacro:property>
 
 <xacro:property name="inertia_battery">
